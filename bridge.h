@@ -15,4 +15,8 @@
 
 #import "sqlite3.h"
 
+//#import "GDataXMLNode.h"
+
+#import "JSONKit.h"
+
 #endif

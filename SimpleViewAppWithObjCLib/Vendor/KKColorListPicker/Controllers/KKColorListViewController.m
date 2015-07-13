@@ -21,7 +21,7 @@
 @property (nonatomic) KKColorsSchemeType currentScheme;
 @property (nonatomic, strong) NSArray *colors;
 
-- (void)actionClose:(id)sender;
+//- (void)actionClose:(id)sender;
 
 @end
 

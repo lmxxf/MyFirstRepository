@@ -32,6 +32,30 @@ class ViewController: UIViewController, KKColorListViewControllerDelegate {
         if let colorVC = viewColor {
             colorVC.delegate = self
         }
+        
+        let userObject = [
+            "uname": "user1",
+            "tel:": ["mobile": "138", "home": "010"]
+        ]
+        
+        //NSJSONSerialization
+        if NSJSONSerialization.isValidJSONObject(userObject) {
+            //protocol NilLiteralConvertible conform types can be initialized with `nil`.
+            //options: NSJSONWritingOptions.PrettyPrinted or nil
+            let data = NSJSONSerialization.dataWithJSONObject(userObject, options: nil, error: nil)
+            if let data = data {
+                let str = NSString(data: data, encoding: NSUTF8StringEncoding)
+                if let str = str {
+                    println("NSJSONSerialization: str=\(str)")
+                }
+            }
+        } else {
+            println("is not a valid json object")
+        }
+        
+        //JSONKit
+        let jsonStr: String = (userObject as NSDictionary).JSONString()
+        println("JSONKit: jsonStr=\(jsonStr)")
     }
 
     //viewColor

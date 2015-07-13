@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D3809F01B54181100E52B8F /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D3809EF1B54181100E52B8F /* libxml2.2.dylib */; };
+		0D3809F41B54193800E52B8F /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3809F31B54193800E52B8F /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		0D43DEA11B53E763001A725A /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = 0D43DEA01B53E763001A725A /* data.db */; };
 		0DDB1A591B53611800C8295D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB1A581B53611800C8295D /* AppDelegate.swift */; };
 		0DDB1A5B1B53611800C8295D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB1A5A1B53611800C8295D /* ViewController.swift */; };
@@ -41,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D3809EF1B54181100E52B8F /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		0D3809F21B54193800E52B8F /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		0D3809F31B54193800E52B8F /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		0D43DE9F1B53E47C001A725A /* SimpleViewAppWithObjCLib.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SimpleViewAppWithObjCLib.entitlements; sourceTree = "<group>"; };
 		0D43DEA01B53E763001A725A /* data.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = data.db; sourceTree = "<group>"; };
 		0DDB1A531B53611800C8295D /* SimpleViewAppWithObjCLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleViewAppWithObjCLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D3809F01B54181100E52B8F /* libxml2.2.dylib in Frameworks */,
 				0DDB1ACE1B53A94F00C8295D /* libsqlite3.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -98,9 +104,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D3809F11B54193800E52B8F /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				0D3809F21B54193800E52B8F /* JSONKit.h */,
+				0D3809F31B54193800E52B8F /* JSONKit.m */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
 		0DDB1A4A1B53611800C8295D = {
 			isa = PBXGroup;
 			children = (
+				0D3809EF1B54181100E52B8F /* libxml2.2.dylib */,
 				0DDB1ACD1B53A94F00C8295D /* libsqlite3.0.dylib */,
 				0DDB1ACC1B538D4600C8295D /* bridge.h */,
 				0DDB1A551B53611800C8295D /* SimpleViewAppWithObjCLib */,
@@ -161,6 +177,7 @@
 		0DDB1AA31B538C9000C8295D /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				0D3809F11B54193800E52B8F /* JSONKit */,
 				0DDB1ACF1B53AAF200C8295D /* SQLiteDB */,
 				0DDB1AA41B538C9000C8295D /* KKColorListPicker */,
 			);
@@ -373,6 +390,7 @@
 			files = (
 				0DDB1AC01B538C9000C8295D /* UIColor+CustomColors.m in Sources */,
 				0DDB1AC11B538C9000C8295D /* UIView+KKToolKitAdditions.m in Sources */,
+				0D3809F41B54193800E52B8F /* JSONKit.m in Sources */,
 				0DDB1AC71B538C9000C8295D /* KKColorsLoader.m in Sources */,
 				0DDB1A5B1B53611800C8295D /* ViewController.swift in Sources */,
 				0DDB1AC21B538C9000C8295D /* KKColorCell.m in Sources */,
@@ -509,13 +527,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SimpleViewAppWithObjCLib/SimpleViewAppWithObjCLib.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yanyan Jin (DA5TCZ28N9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yanyan Jin (DA5TCZ28N9)";
 				INFOPLIST_FILE = SimpleViewAppWithObjCLib/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -524,13 +543,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SimpleViewAppWithObjCLib/SimpleViewAppWithObjCLib.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yanyan Jin (DA5TCZ28N9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yanyan Jin (DA5TCZ28N9)";
 				INFOPLIST_FILE = SimpleViewAppWithObjCLib/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
