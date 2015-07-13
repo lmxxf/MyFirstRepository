@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D43DEA11B53E763001A725A /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = 0D43DEA01B53E763001A725A /* data.db */; };
+		0DDB1A591B53611800C8295D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB1A581B53611800C8295D /* AppDelegate.swift */; };
+		0DDB1A5B1B53611800C8295D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB1A5A1B53611800C8295D /* ViewController.swift */; };
+		0DDB1A5E1B53611800C8295D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DDB1A5C1B53611800C8295D /* Main.storyboard */; };
+		0DDB1A601B53611800C8295D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DDB1A5F1B53611800C8295D /* Images.xcassets */; };
+		0DDB1A631B53611800C8295D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DDB1A611B53611800C8295D /* LaunchScreen.xib */; };
+		0DDB1A6F1B53611800C8295D /* SimpleViewAppWithObjCLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB1A6E1B53611800C8295D /* SimpleViewAppWithObjCLibTests.swift */; };
+		0DDB1AC01B538C9000C8295D /* UIColor+CustomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB1AA81B538C9000C8295D /* UIColor+CustomColors.m */; };
+		0DDB1AC11B538C9000C8295D /* UIView+KKToolKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB1AAB1B538C9000C8295D /* UIView+KKToolKitAdditions.m */; };
+		0DDB1AC21B538C9000C8295D /* KKColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB1AAE1B538C9000C8295D /* KKColorCell.m */; };
+		0DDB1AC31B538C9000C8295D /* KKColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DDB1AAF1B538C9000C8295D /* KKColorCell.xib */; };
+		0DDB1AC41B538C9000C8295D /* KKColorsHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB1AB11B538C9000C8295D /* KKColorsHeaderView.m */; };
+		0DDB1AC51B538C9000C8295D /* KKColorsHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DDB1AB21B538C9000C8295D /* KKColorsHeaderView.xib */; };
+		0DDB1AC61B538C9000C8295D /* KKColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB1AB51B538C9000C8295D /* KKColor.m */; };
+		0DDB1AC71B538C9000C8295D /* KKColorsLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB1AB81B538C9000C8295D /* KKColorsLoader.m */; };
+		0DDB1AC81B538C9000C8295D /* KKColorListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB1ABC1B538C9000C8295D /* KKColorListViewController.m */; };
+		0DDB1AC91B538C9000C8295D /* colors_crayola.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DDB1ABE1B538C9000C8295D /* colors_crayola.plist */; };
+		0DDB1ACA1B538C9000C8295D /* colors_pantone.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DDB1ABF1B538C9000C8295D /* colors_pantone.plist */; };
+		0DDB1ACE1B53A94F00C8295D /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DDB1ACD1B53A94F00C8295D /* libsqlite3.0.dylib */; };
+		0DDB1AD21B53AAF200C8295D /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB1AD01B53AAF200C8295D /* SQLiteDB.swift */; };
+		0DDB1AD31B53AAF200C8295D /* String-Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB1AD11B53AAF200C8295D /* String-Extras.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DDB1A691B53611800C8295D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DDB1A4B1B53611800C8295D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DDB1A521B53611800C8295D;
+			remoteInfo = SimpleViewAppWithObjCLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D43DE9F1B53E47C001A725A /* SimpleViewAppWithObjCLib.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SimpleViewAppWithObjCLib.entitlements; sourceTree = "<group>"; };
+		0D43DEA01B53E763001A725A /* data.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = data.db; sourceTree = "<group>"; };
+		0DDB1A531B53611800C8295D /* SimpleViewAppWithObjCLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleViewAppWithObjCLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DDB1A571B53611800C8295D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DDB1A581B53611800C8295D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0DDB1A5A1B53611800C8295D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0DDB1A5D1B53611800C8295D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DDB1A5F1B53611800C8295D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0DDB1A621B53611800C8295D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0DDB1A681B53611800C8295D /* SimpleViewAppWithObjCLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleViewAppWithObjCLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DDB1A6D1B53611800C8295D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DDB1A6E1B53611800C8295D /* SimpleViewAppWithObjCLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViewAppWithObjCLibTests.swift; sourceTree = "<group>"; };
+		0DDB1AA71B538C9000C8295D /* UIColor+CustomColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CustomColors.h"; sourceTree = "<group>"; };
+		0DDB1AA81B538C9000C8295D /* UIColor+CustomColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CustomColors.m"; sourceTree = "<group>"; };
+		0DDB1AAA1B538C9000C8295D /* UIView+KKToolKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KKToolKitAdditions.h"; sourceTree = "<group>"; };
+		0DDB1AAB1B538C9000C8295D /* UIView+KKToolKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KKToolKitAdditions.m"; sourceTree = "<group>"; };
+		0DDB1AAD1B538C9000C8295D /* KKColorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKColorCell.h; sourceTree = "<group>"; };
+		0DDB1AAE1B538C9000C8295D /* KKColorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKColorCell.m; sourceTree = "<group>"; };
+		0DDB1AAF1B538C9000C8295D /* KKColorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KKColorCell.xib; sourceTree = "<group>"; };
+		0DDB1AB01B538C9000C8295D /* KKColorsHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKColorsHeaderView.h; sourceTree = "<group>"; };
+		0DDB1AB11B538C9000C8295D /* KKColorsHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKColorsHeaderView.m; sourceTree = "<group>"; };
+		0DDB1AB21B538C9000C8295D /* KKColorsHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KKColorsHeaderView.xib; sourceTree = "<group>"; };
+		0DDB1AB41B538C9000C8295D /* KKColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKColor.h; sourceTree = "<group>"; };
+		0DDB1AB51B538C9000C8295D /* KKColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKColor.m; sourceTree = "<group>"; };
+		0DDB1AB61B538C9000C8295D /* KKColorListPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKColorListPicker.h; sourceTree = "<group>"; };
+		0DDB1AB71B538C9000C8295D /* KKColorsLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKColorsLoader.h; sourceTree = "<group>"; };
+		0DDB1AB81B538C9000C8295D /* KKColorsLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKColorsLoader.m; sourceTree = "<group>"; };
+		0DDB1AB91B538C9000C8295D /* KKColorsSchemeType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKColorsSchemeType.h; sourceTree = "<group>"; };
+		0DDB1ABB1B538C9000C8295D /* KKColorListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKColorListViewController.h; sourceTree = "<group>"; };
+		0DDB1ABC1B538C9000C8295D /* KKColorListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKColorListViewController.m; sourceTree = "<group>"; };
+		0DDB1ABE1B538C9000C8295D /* colors_crayola.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = colors_crayola.plist; sourceTree = "<group>"; };
+		0DDB1ABF1B538C9000C8295D /* colors_pantone.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = colors_pantone.plist; sourceTree = "<group>"; };
+		0DDB1ACC1B538D4600C8295D /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
+		0DDB1ACD1B53A94F00C8295D /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		0DDB1AD01B53AAF200C8295D /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteDB.swift; sourceTree = "<group>"; };
+		0DDB1AD11B53AAF200C8295D /* String-Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String-Extras.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DDB1A501B53611800C8295D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DDB1ACE1B53A94F00C8295D /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DDB1A651B53611800C8295D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DDB1A4A1B53611800C8295D = {
+			isa = PBXGroup;
+			children = (
+				0DDB1ACD1B53A94F00C8295D /* libsqlite3.0.dylib */,
+				0DDB1ACC1B538D4600C8295D /* bridge.h */,
+				0DDB1A551B53611800C8295D /* SimpleViewAppWithObjCLib */,
+				0DDB1A6B1B53611800C8295D /* SimpleViewAppWithObjCLibTests */,
+				0DDB1A541B53611800C8295D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DDB1A541B53611800C8295D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DDB1A531B53611800C8295D /* SimpleViewAppWithObjCLib.app */,
+				0DDB1A681B53611800C8295D /* SimpleViewAppWithObjCLibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DDB1A551B53611800C8295D /* SimpleViewAppWithObjCLib */ = {
+			isa = PBXGroup;
+			children = (
+				0D43DE9F1B53E47C001A725A /* SimpleViewAppWithObjCLib.entitlements */,
+				0DDB1AA31B538C9000C8295D /* Vendor */,
+				0DDB1A581B53611800C8295D /* AppDelegate.swift */,
+				0DDB1A5A1B53611800C8295D /* ViewController.swift */,
+				0DDB1A5C1B53611800C8295D /* Main.storyboard */,
+				0DDB1A5F1B53611800C8295D /* Images.xcassets */,
+				0DDB1A611B53611800C8295D /* LaunchScreen.xib */,
+				0DDB1A561B53611800C8295D /* Supporting Files */,
+			);
+			path = SimpleViewAppWithObjCLib;
+			sourceTree = "<group>";
+		};
+		0DDB1A561B53611800C8295D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DDB1A571B53611800C8295D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0DDB1A6B1B53611800C8295D /* SimpleViewAppWithObjCLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DDB1A6E1B53611800C8295D /* SimpleViewAppWithObjCLibTests.swift */,
+				0DDB1A6C1B53611800C8295D /* Supporting Files */,
+			);
+			path = SimpleViewAppWithObjCLibTests;
+			sourceTree = "<group>";
+		};
+		0DDB1A6C1B53611800C8295D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DDB1A6D1B53611800C8295D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0DDB1AA31B538C9000C8295D /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				0DDB1ACF1B53AAF200C8295D /* SQLiteDB */,
+				0DDB1AA41B538C9000C8295D /* KKColorListPicker */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		0DDB1AA41B538C9000C8295D /* KKColorListPicker */ = {
+			isa = PBXGroup;
+			children = (
+				0DDB1AA51B538C9000C8295D /* Categories */,
+				0DDB1AAC1B538C9000C8295D /* Cells */,
+				0DDB1AB31B538C9000C8295D /* Classes */,
+				0DDB1ABA1B538C9000C8295D /* Controllers */,
+				0DDB1ABD1B538C9000C8295D /* Schemes */,
+			);
+			path = KKColorListPicker;
+			sourceTree = "<group>";
+		};
+		0DDB1AA51B538C9000C8295D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				0DDB1AA61B538C9000C8295D /* UIColor */,
+				0DDB1AA91B538C9000C8295D /* UIView */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		0DDB1AA61B538C9000C8295D /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				0DDB1AA71B538C9000C8295D /* UIColor+CustomColors.h */,
+				0DDB1AA81B538C9000C8295D /* UIColor+CustomColors.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		0DDB1AA91B538C9000C8295D /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				0DDB1AAA1B538C9000C8295D /* UIView+KKToolKitAdditions.h */,
+				0DDB1AAB1B538C9000C8295D /* UIView+KKToolKitAdditions.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		0DDB1AAC1B538C9000C8295D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0DDB1AAD1B538C9000C8295D /* KKColorCell.h */,
+				0DDB1AAE1B538C9000C8295D /* KKColorCell.m */,
+				0DDB1AAF1B538C9000C8295D /* KKColorCell.xib */,
+				0DDB1AB01B538C9000C8295D /* KKColorsHeaderView.h */,
+				0DDB1AB11B538C9000C8295D /* KKColorsHeaderView.m */,
+				0DDB1AB21B538C9000C8295D /* KKColorsHeaderView.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		0DDB1AB31B538C9000C8295D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0DDB1AB41B538C9000C8295D /* KKColor.h */,
+				0DDB1AB51B538C9000C8295D /* KKColor.m */,
+				0DDB1AB61B538C9000C8295D /* KKColorListPicker.h */,
+				0DDB1AB71B538C9000C8295D /* KKColorsLoader.h */,
+				0DDB1AB81B538C9000C8295D /* KKColorsLoader.m */,
+				0DDB1AB91B538C9000C8295D /* KKColorsSchemeType.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0DDB1ABA1B538C9000C8295D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0DDB1ABB1B538C9000C8295D /* KKColorListViewController.h */,
+				0DDB1ABC1B538C9000C8295D /* KKColorListViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0DDB1ABD1B538C9000C8295D /* Schemes */ = {
+			isa = PBXGroup;
+			children = (
+				0DDB1ABE1B538C9000C8295D /* colors_crayola.plist */,
+				0DDB1ABF1B538C9000C8295D /* colors_pantone.plist */,
+			);
+			path = Schemes;
+			sourceTree = "<group>";
+		};
+		0DDB1ACF1B53AAF200C8295D /* SQLiteDB */ = {
+			isa = PBXGroup;
+			children = (
+				0D43DEA01B53E763001A725A /* data.db */,
+				0DDB1AD01B53AAF200C8295D /* SQLiteDB.swift */,
+				0DDB1AD11B53AAF200C8295D /* String-Extras.swift */,
+			);
+			path = SQLiteDB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DDB1A521B53611800C8295D /* SimpleViewAppWithObjCLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DDB1A721B53611800C8295D /* Build configuration list for PBXNativeTarget "SimpleViewAppWithObjCLib" */;
+			buildPhases = (
+				0DDB1A4F1B53611800C8295D /* Sources */,
+				0DDB1A501B53611800C8295D /* Frameworks */,
+				0DDB1A511B53611800C8295D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleViewAppWithObjCLib;
+			productName = SimpleViewAppWithObjCLib;
+			productReference = 0DDB1A531B53611800C8295D /* SimpleViewAppWithObjCLib.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DDB1A671B53611800C8295D /* SimpleViewAppWithObjCLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DDB1A751B53611800C8295D /* Build configuration list for PBXNativeTarget "SimpleViewAppWithObjCLibTests" */;
+			buildPhases = (
+				0DDB1A641B53611800C8295D /* Sources */,
+				0DDB1A651B53611800C8295D /* Frameworks */,
+				0DDB1A661B53611800C8295D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DDB1A6A1B53611800C8295D /* PBXTargetDependency */,
+			);
+			name = SimpleViewAppWithObjCLibTests;
+			productName = SimpleViewAppWithObjCLibTests;
+			productReference = 0DDB1A681B53611800C8295D /* SimpleViewAppWithObjCLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DDB1A4B1B53611800C8295D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Gintong;
+				TargetAttributes = {
+					0DDB1A521B53611800C8295D = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 99TSRQ7KHH;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					0DDB1A671B53611800C8295D = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 0DDB1A521B53611800C8295D;
+					};
+				};
+			};
+			buildConfigurationList = 0DDB1A4E1B53611800C8295D /* Build configuration list for PBXProject "SimpleViewAppWithObjCLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DDB1A4A1B53611800C8295D;
+			productRefGroup = 0DDB1A541B53611800C8295D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DDB1A521B53611800C8295D /* SimpleViewAppWithObjCLib */,
+				0DDB1A671B53611800C8295D /* SimpleViewAppWithObjCLibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DDB1A511B53611800C8295D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DDB1ACA1B538C9000C8295D /* colors_pantone.plist in Resources */,
+				0DDB1A5E1B53611800C8295D /* Main.storyboard in Resources */,
+				0DDB1AC31B538C9000C8295D /* KKColorCell.xib in Resources */,
+				0DDB1AC51B538C9000C8295D /* KKColorsHeaderView.xib in Resources */,
+				0DDB1A631B53611800C8295D /* LaunchScreen.xib in Resources */,
+				0D43DEA11B53E763001A725A /* data.db in Resources */,
+				0DDB1AC91B538C9000C8295D /* colors_crayola.plist in Resources */,
+				0DDB1A601B53611800C8295D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DDB1A661B53611800C8295D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DDB1A4F1B53611800C8295D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DDB1AC01B538C9000C8295D /* UIColor+CustomColors.m in Sources */,
+				0DDB1AC11B538C9000C8295D /* UIView+KKToolKitAdditions.m in Sources */,
+				0DDB1AC71B538C9000C8295D /* KKColorsLoader.m in Sources */,
+				0DDB1A5B1B53611800C8295D /* ViewController.swift in Sources */,
+				0DDB1AC21B538C9000C8295D /* KKColorCell.m in Sources */,
+				0DDB1A591B53611800C8295D /* AppDelegate.swift in Sources */,
+				0DDB1AC61B538C9000C8295D /* KKColor.m in Sources */,
+				0DDB1AD21B53AAF200C8295D /* SQLiteDB.swift in Sources */,
+				0DDB1AC81B538C9000C8295D /* KKColorListViewController.m in Sources */,
+				0DDB1AC41B538C9000C8295D /* KKColorsHeaderView.m in Sources */,
+				0DDB1AD31B53AAF200C8295D /* String-Extras.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DDB1A641B53611800C8295D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DDB1A6F1B53611800C8295D /* SimpleViewAppWithObjCLibTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DDB1A6A1B53611800C8295D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DDB1A521B53611800C8295D /* SimpleViewAppWithObjCLib */;
+			targetProxy = 0DDB1A691B53611800C8295D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0DDB1A5C1B53611800C8295D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DDB1A5D1B53611800C8295D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0DDB1A611B53611800C8295D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DDB1A621B53611800C8295D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DDB1A701B53611800C8295D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0DDB1A711B53611800C8295D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DDB1A731B53611800C8295D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SimpleViewAppWithObjCLib/SimpleViewAppWithObjCLib.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SimpleViewAppWithObjCLib/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
+			};
+			name = Debug;
+		};
+		0DDB1A741B53611800C8295D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SimpleViewAppWithObjCLib/SimpleViewAppWithObjCLib.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SimpleViewAppWithObjCLib/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
+			};
+			name = Release;
+		};
+		0DDB1A761B53611800C8295D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleViewAppWithObjCLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleViewAppWithObjCLib.app/SimpleViewAppWithObjCLib";
+			};
+			name = Debug;
+		};
+		0DDB1A771B53611800C8295D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleViewAppWithObjCLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleViewAppWithObjCLib.app/SimpleViewAppWithObjCLib";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DDB1A4E1B53611800C8295D /* Build configuration list for PBXProject "SimpleViewAppWithObjCLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DDB1A701B53611800C8295D /* Debug */,
+				0DDB1A711B53611800C8295D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DDB1A721B53611800C8295D /* Build configuration list for PBXNativeTarget "SimpleViewAppWithObjCLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DDB1A731B53611800C8295D /* Debug */,
+				0DDB1A741B53611800C8295D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DDB1A751B53611800C8295D /* Build configuration list for PBXNativeTarget "SimpleViewAppWithObjCLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DDB1A761B53611800C8295D /* Debug */,
+				0DDB1A771B53611800C8295D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DDB1A4B1B53611800C8295D /* Project object */;
+}
