@@ -65,6 +65,10 @@ class ViewController: UIViewController, KKColorListViewControllerDelegate {
     }
     @IBAction func saveUserInfo(sender: AnyObject) {
         saveUser()
+        let a: NSNumber? = NSNumber(int: 1)
+        let b: NSNumber? = NSNumber(int: 2)
+        var c: NSNumber? = nil
+        c =  a != nil ? a : b
     }
 
     @IBAction func selColor(sender: AnyObject) {
